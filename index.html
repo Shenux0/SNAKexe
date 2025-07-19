@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAK.EXE - Retro Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>█ SNAK.EXE █</h1>
+            <div class="score-board">
+                <div class="score">SCORE: <span id="score">0</span></div>
+                <div class="high-score">HIGH: <span id="highScore">0</span></div>
+            </div>
+        </div>
+        
+        <div class="game-area">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+            <div id="gameOver" class="game-over hidden">
+                <h2>GAME OVER</h2>
+                <p>FINAL SCORE: <span id="finalScore">0</span></p>
+                <button id="restartBtn" class="btn">RESTART</button>
+            </div>
+            <div id="startScreen" class="start-screen">
+                <h2>█ SNAK.EXE █</h2>
+                <p>USE ARROW KEYS OR WASD</p>
+                <p>EAT WHITE BLOCKS TO GROW</p>
+                <button id="startBtn" class="btn">START GAME</button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="control-info">
+                <p><strong>CONTROLS:</strong> ARROW KEYS OR WASD</p>
+                <p><strong>OBJECTIVE:</strong> EAT FOOD TO GROW</p>
+            </div>
+            <div class="mobile-controls">
+                <div class="control-row">
+                    <button class="control-btn" data-direction="up">↑</button>
+                </div>
+                <div class="control-row">
+                    <button class="control-btn" data-direction="left">←</button>
+                    <button class="control-btn" data-direction="down">↓</button>
+                    <button class="control-btn" data-direction="right">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
