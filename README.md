@@ -1,4 +1,5 @@
 # 🐍 SNAK.EXE
+(Under construction)
 
 A retro-style Snake game with classic black and white arcade aesthetics, built with HTML5 Canvas and JavaScript.
 
@@ -92,7 +93,7 @@ Feel free to fork this project and submit pull requests for improvements!
 
 ## 📄 License
 
-This project is open source. Feel free to use, modify, and distribute.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
