@@ -1,5 +1,5 @@
 # 🐍 SNAK.EXE
-(Under construction)
+(STILL WORKING ON)
 
 A retro-style Snake game with classic black and white arcade aesthetics, built with HTML5 Canvas and JavaScript.
 
