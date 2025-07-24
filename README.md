@@ -90,6 +90,7 @@ The game can be easily customized by modifying:
 ## 🤝 Contributing
 
 Feel free to fork this project and submit pull requests for improvements!
+Dont forget t reach me and give feed back and ideas to improve!!
 
 ## 📄 License
 
